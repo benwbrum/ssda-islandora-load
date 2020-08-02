@@ -5,11 +5,11 @@
 SSDA Load Process
 
 Log in via the command line using SSH:
-ssh -i /home/saracarl/.ssh/SSDA-Brumfield.pem ubuntu@52.1.163.15
+`ssh -i /home/saracarl/.ssh/SSDA-Brumfield.pem ubuntu@52.1.163.15`
 
 ~ is the home directory of the ubuntu user.  A "cd" will get you there.
 
-You should run "tmux" before running any of the following commands.  This will allow commands to run even if you are disconnected.  To reconnect after logging back in, type "tmux attach".
+You should run `tmux` before running any of the following commands.  This will keep your terminal session alive, and allow commands to run even if you are disconnected.  To reconnect after logging back in, type `tmux attach`.
 
 1)  Read directories and metadata file to generate migration csv files.
 
